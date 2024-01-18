@@ -6,7 +6,8 @@ local M = {}
 function M.init()
   parsers.get_parser_configs().ng = {
     install_info = {
-      url = "~/git/tree-sitter-ng",
+      url = "justinrassier/tree-sitter-ng",
+      -- url = "~/git/tree-sitter-ng",
       files = { "src/parser.c", "src/scanner.cc" },
       branch = "main",
       -- requires_generate_from_grammar = false, -- if folder contains pre-generated src/parser.c
